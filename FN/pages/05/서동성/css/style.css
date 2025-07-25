@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f7f6;
+}
+
+.consult-wrap {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #f4efea;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 10px 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #333;
+    color: #fff;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.step {
+    width: 22%;
+    background: #f8f5f3;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #e0d9d2;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.step p {
+    font-size: 13px;
+    color: #333;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn.primary {
+    background: #001f60;
+    color: #fff;
+}
+
+.btn.secondary {
+    background: #f0f0f0;
+    color: #333;
+}
