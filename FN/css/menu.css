@@ -1,0 +1,64 @@
+/* 메뉴 */
+.header {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 220px;
+    height: 100vh;
+    padding: 8px, 12px, 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+.top-header {
+    border: 1px solid;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 19px;
+    padding: 25px 12px 16px;
+    height: 75px;
+    width: 100%;
+
+    font-size: 1.5rem;
+    font-family:
+
+
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.menu-items {
+    height: auto;
+    width: 100%;
+    margin: 4px 0;
+    padding-left: 15px;
+}
+
+.menu-items>a>li {
+    height: 50px;
+    width: 100%;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+
+}
+
+.more-menu>a>li {
+    height: 50px;
+    width: 100%;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    margin-bottom :15px;
+}
