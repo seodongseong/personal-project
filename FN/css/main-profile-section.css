@@ -1,0 +1,27 @@
+.profile-section {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+
+
+.profile-section>a>.my-profile>li {
+    display: flex;
+    margin-left: 20px;
+}
+
+.profile-section>.total-days {}
+
+.profile-section>.total-distance {}
+
+.profile-section>.trace {}
+
+.profile-section>.points {}
+
+.profile-section>. {}

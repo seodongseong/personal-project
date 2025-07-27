@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelgram</title>
+    <title>오늘 어디?</title>
 
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/feed.css">
-    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <link rel="stylesheet" href="css/main-walk-section.css">
+    <link rel="stylesheet" href="css/main-map-section.css">
+    <link rel="stylesheet" href="css/main-search-section.css">
+    <link rel="stylesheet" href="css/main-message-section.css">
+    <link rel="stylesheet" href="css/main-profile-section.css">
+
+
+
 
 
 </head>
+
 <body>
 
     <!-- 전체를 감싸고 있는 요소 -->
@@ -19,35 +28,58 @@
         <!-- 해더 -->
         <header class="header">
             <!-- 로고 -->
-            <div class="top-header">Travelgram</div>
+            <div class="top-header"><a href="./main.html"><img src="./image/ODI Logo.png" alt=""></a></div>
             <!--  -->
             <nav class="menu-box">
                 <ul class="menu-items">
-                    <a href="javascript:void(0)" name="menu-home"><img src="" alt=""><li>홈</li></a>
-                    <a href="javascript:void(0)" name="menu-search"><li>검색</li></a>
-                    <a href="javascript:void(0)" name="menu-exploration"><li>탐색 탭</li></a>
-                    <a href="javascript:void(0)" name="menu-reels"><li>릴스</li></a>
-                    <a href="javascript:void(0)" name="menu-map"><li>지도</li></a>
-                    <a href="javascript:void(0)" name="menu-message"><li>메시지</li></a>
-                    <a href="javascript:void(0)" name="menu-alarm"><li>알림</li></a>
-                    <a href="javascript:void(0)" name="menu-make"><li>만들기</li></a>
-                    <a href="javascript:void(0)" name="menu-profile"><li>프로필</li></a>
+                    <!-- <a href="javascript:void(0)" name="menu-home"><img src="./image/home.svg" alt=""><li></li></a> -->
+                    <a href="javascript:void(0)" name="menu-walk"><img src="./image/walk.svg" alt="">
+                        <li></li>
+                    </a>
+                    <a href="javascript:void(0)" name="menu-map"><img src="./image/map.svg" alt="">
+                        <li></li>
+                    </a>
+                    <a href="javascript:void(0)" name="menu-search"><img src="./image/search.svg" alt="">
+                        <li></li>
+                    </a>
+                    <a href="javascript:void(0)" name="menu-message"><img src="./image/send.svg" alt="">
+                        <li></li>
+                    </a>
+                    <a href="javascript:void(0)" name="menu-profile"><img src="./image/user.svg" alt="">
+                        <li></li>
+                    </a>
                 </ul>
                 <ul class="more-menu">
-                    <a href="javascript:void(0)" name="menu-more"><li>더 보기</li></a>
+                    <a href="javascript:void(0)" name="menu-more"><img src="./image/menu.svg" alt="">
+                        <li></li>
+                    </a>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="feed-and-story">
-                <div class="feed-section"></div>
-                <div class="story-section"></div>
+            <section class="main-content">
+                <div class="profile-section">
+                    <a href="">
+                        <div class="my-profile">
+                            <h3>[내정보]</h3>
+                        </div>
+                    </a>
+                    <div class="total-days">사용 일수</div>
+                    <div class="total-distance">누적 거리</div>
+                    <div class="trace">가본 길</div>
+                    <div class="points">포인트</div>
+                </div>
+                <div class="walk-section">
+                    <div></div>
+                </div>
+                <div class="map-section"></div>
+                <div class="search-section"></div>
+                <div class="message-section"></div>
+
             </section>
         </main>
         <footer></footer>
     </div>
 </body>
+
 </html>
-
-
-

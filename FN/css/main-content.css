@@ -1,0 +1,46 @@
+main {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    height: 1080px;
+    position: relative;
+    left: 60px;
+
+
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+.walk-section,
+.map-section,
+.search-section,
+.message-section,
+.profile-section {
+    background-color: aqua;
+    border: 2px solid; 
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 500px;
+
+}
+
+
+
+/* 
+    @media (max-width: 500px) {
+    .section{
+        padding: 12px;
+    }        
+    } */
